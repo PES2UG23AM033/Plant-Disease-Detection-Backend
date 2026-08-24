@@ -11,7 +11,11 @@ from werkzeug.utils import secure_filename
 from treatment_recommendation import get_recommendation
 from concurrent.futures import ThreadPoolExecutor
 import threading
-
+from huggingface_hub import hf_hub_download
+MODEL_PATH = hf_hub_download(
+    repo_id="divy-g-2005/Plant-Disease-Detection",
+    filename="best_model.pth"
+)
 # ─────────────────────────────────────────
 # LOGGING
 # ─────────────────────────────────────────
