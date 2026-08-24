@@ -12,6 +12,7 @@ from treatment_recommendation import get_recommendation
 from concurrent.futures import ThreadPoolExecutor
 import threading
 from huggingface_hub import hf_hub_download
+
 MODEL_PATH = hf_hub_download(
     repo_id="divy-g-2005/Plant-Disease-Detection",
     filename="best_model.pth"
@@ -28,7 +29,6 @@ logger = logging.getLogger(__name__)
 DEVICE          = "cuda" if torch.cuda.is_available() else "cpu"
 BASE_DIR        = os.path.dirname(os.path.abspath(__file__))
 MODELS_DIR      = os.path.join(BASE_DIR, "models")
-MODEL_PATH      = os.environ.get("MODEL_PATH", os.path.join(MODELS_DIR, "best_model.pth"))
 CLASS_MAP_PATH  = os.path.join(MODELS_DIR, "class_map.json")
 UPLOAD_FOLDER   = os.path.join(BASE_DIR, "uploads")
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
