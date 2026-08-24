@@ -1,0 +1,32 @@
+{
+  "class_to_idx": {
+    "Anthracnose": 0,
+    "BacterialBlight": 1,
+    "BlackSpot": 2,
+    "Canker": 3,
+    "CurlVirus": 4,
+    "DeficiencyLeaf": 5,
+    "DryLeaf": 6,
+    "Greening": 7,
+    "Healthy": 8,
+    "LeafMiner": 9,
+    "Melanose": 10,
+    "SootyMould": 11,
+    "SpiderMites": 12
+  },
+  "idx_to_class": {
+    "0": "Anthracnose",
+    "1": "BacterialBlight",
+    "2": "BlackSpot",
+    "3": "Canker",
+    "4": "CurlVirus",
+    "5": "DeficiencyLeaf",
+    "6": "DryLeaf",
+    "7": "Greening",
+    "8": "Healthy",
+    "9": "LeafMiner",
+    "10": "Melanose",
+    "11": "SootyMould",
+    "12": "SpiderMites"
+  }
+}

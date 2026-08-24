@@ -1,0 +1,29 @@
+Single-label accuracy: 0.9066
+
+Multi-label metrics (tuned thresholds):
+  mAP: 0.9570
+  macro_f1: 0.9060
+  micro_f1: 0.8939
+  hamming_loss: 0.0172
+  exact_match: 0.8351
+
+Classification Report:
+                 precision    recall  f1-score   support
+
+    Anthracnose     0.9874    0.9219    0.9535       256
+BacterialBlight     1.0000    1.0000    1.0000        14
+      BlackSpot     0.9927    0.9645    0.9784       141
+         Canker     0.9833    0.8806    0.9291       134
+      CurlVirus     0.8091    0.7946    0.8018       112
+ DeficiencyLeaf     0.8632    0.9099    0.8860       111
+        DryLeaf     1.0000    1.0000    1.0000        15
+       Greening     0.7445    0.8226    0.7816       124
+        Healthy     0.9520    1.0000    0.9754       119
+      LeafMiner     0.7273    0.8081    0.7656        99
+       Melanose     1.0000    1.0000    1.0000        76
+     SootyMould     1.0000    1.0000    1.0000        15
+    SpiderMites     0.9375    1.0000    0.9677        15
+
+       accuracy                         0.9066      1231
+      macro avg     0.9229    0.9309    0.9261      1231
+   weighted avg     0.9120    0.9066    0.9082      1231

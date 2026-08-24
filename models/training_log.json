@@ -1,0 +1,122 @@
+[
+  {
+    "epoch": 6,
+    "train_loss": 0.82989,
+    "train_acc": 0.7634,
+    "val_mAP": 0.78741,
+    "val_sl_acc": 0.74791,
+    "val_macro_f1": 0.4673
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.72173,
+    "train_acc": 0.81759,
+    "val_mAP": 0.90538,
+    "val_sl_acc": 0.83964,
+    "val_macro_f1": 0.54899
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.66498,
+    "train_acc": 0.84435,
+    "val_mAP": 0.91032,
+    "val_sl_acc": 0.82867,
+    "val_macro_f1": 0.5082
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.64364,
+    "train_acc": 0.8668,
+    "val_mAP": 0.91679,
+    "val_sl_acc": 0.87139,
+    "val_macro_f1": 0.5733
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.60432,
+    "train_acc": 0.87787,
+    "val_mAP": 0.9275,
+    "val_sl_acc": 0.87283,
+    "val_macro_f1": 0.58663
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.58442,
+    "train_acc": 0.88766,
+    "val_mAP": 0.93379,
+    "val_sl_acc": 0.87984,
+    "val_macro_f1": 0.62584
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.58914,
+    "train_acc": 0.89393,
+    "val_mAP": 0.93768,
+    "val_sl_acc": 0.88493,
+    "val_macro_f1": 0.67247
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.55084,
+    "train_acc": 0.90255,
+    "val_mAP": 0.94426,
+    "val_sl_acc": 0.89448,
+    "val_macro_f1": 0.66099
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.5679,
+    "train_acc": 0.90821,
+    "val_mAP": 0.92765,
+    "val_sl_acc": 0.88439,
+    "val_macro_f1": 0.73198
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.54935,
+    "train_acc": 0.91086,
+    "val_mAP": 0.94714,
+    "val_sl_acc": 0.90025,
+    "val_macro_f1": 0.70795
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.55766,
+    "train_acc": 0.91385,
+    "val_mAP": 0.93945,
+    "val_sl_acc": 0.90512,
+    "val_macro_f1": 0.76068
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.53686,
+    "train_acc": 0.92067,
+    "val_mAP": 0.95297,
+    "val_sl_acc": 0.90849,
+    "val_macro_f1": 0.74669
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.54441,
+    "train_acc": 0.92269,
+    "val_mAP": 0.92435,
+    "val_sl_acc": 0.90972,
+    "val_macro_f1": 0.67071
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.5359,
+    "train_acc": 0.92016,
+    "val_mAP": 0.92888,
+    "val_sl_acc": 0.91092,
+    "val_macro_f1": 0.7647
+  },
+  {
+    "epoch": 20,
+    "train_loss": 0.54108,
+    "train_acc": 0.92684,
+    "val_mAP": 0.94449,
+    "val_sl_acc": 0.91835,
+    "val_macro_f1": 0.7726
+  }
+]
