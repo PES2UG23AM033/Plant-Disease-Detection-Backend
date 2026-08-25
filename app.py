@@ -14,9 +14,11 @@ import threading
 from huggingface_hub import hf_hub_download
 
 MODEL_PATH = hf_hub_download(
-    repo_id="divy-g-2005/Plant-Disease-Detection",
-    filename="best_model.pth"
+    repo_id="divy-g-2005/plant-disease-model",
+    filename="best_model.pth",
+    cache_dir="/tmp"
 )
+
 # ─────────────────────────────────────────
 # LOGGING
 # ─────────────────────────────────────────
