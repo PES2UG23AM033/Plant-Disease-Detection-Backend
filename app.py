@@ -16,7 +16,7 @@ from huggingface_hub import hf_hub_download
 MODEL_PATH = hf_hub_download(
     repo_id="divy-g-2005/plant-disease-model",
     filename="best_model.pth",
-    cache_dir="/tmp"
+    cache_dir="/tmp/hf_cache"
 )
 
 # ─────────────────────────────────────────
